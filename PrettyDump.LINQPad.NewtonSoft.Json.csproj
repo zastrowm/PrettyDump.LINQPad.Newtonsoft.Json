@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>PrettyDump.LINQPad.NewtonSoft.Json</RootNamespace>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionSuffix>alpha-01</VersionSuffix>
+  </PropertyGroup>
+  
+  <!-- Nuget -->
+  <PropertyGroup>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/zastrowm/PrettyDump.LINQPad.Newtonsoft.Json</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/zastrowm/PrettyDump.LINQPad.Newtonsoft.Json</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Title>JToken.PrettyDump() for LinqPad</Title>
+    <Description>Provides an extension method "PrettyDump" on JSON-related classes to provide a nice representation of JSON in LINQPad.</Description>
+    <Authors>Mackenzie Zastrow</Authors>
+    <PackageTags>LINQPad, json, pretty, dump</PackageTags>
+    <Copyright>2019 Mackenzie Zastrow</Copyright>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="2018.3.0">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="6.0.8" />
+    <PackageReference Include="LINQPad" Version="5.22.2" />
+  </ItemGroup>
+
+</Project>
