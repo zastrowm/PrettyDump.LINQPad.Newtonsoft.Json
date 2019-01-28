@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrettyDump.LINQPad.Newtonsoft.Json", "PrettyDump.LINQPad.Newtonsoft.Json.csproj", "{9042E45F-A763-41D6-AE94-C8DEEC466E38}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrettyDump.LINQPad.Newtonsoft.Json", "src\PrettyDump.LINQPad.Newtonsoft.Json.csproj", "{4D3E5F27-96F1-424F-A3DB-333659A0068C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9042E45F-A763-41D6-AE94-C8DEEC466E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9042E45F-A763-41D6-AE94-C8DEEC466E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9042E45F-A763-41D6-AE94-C8DEEC466E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9042E45F-A763-41D6-AE94-C8DEEC466E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D3E5F27-96F1-424F-A3DB-333659A0068C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D3E5F27-96F1-424F-A3DB-333659A0068C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D3E5F27-96F1-424F-A3DB-333659A0068C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D3E5F27-96F1-424F-A3DB-333659A0068C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
