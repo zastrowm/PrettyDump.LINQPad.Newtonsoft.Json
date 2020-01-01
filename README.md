@@ -2,11 +2,13 @@
 
 JToken.PrettyDump() for LinqPad
 
+> ## Obsolete as of v5.40
+
+> **Note**: LINQPad v5.40 added native support for Newtonsoft.Json, and thus this library is no longer needed.
+
 ## NuGet
 
 [![](https://img.shields.io/nuget/v/PrettyDump.LINQPad.Newtonsoft.Json.svg?style=for-the-badge)](https://www.nuget.org/packages/PrettyDump.LINQPad.Newtonsoft.Json)
-
-
 
 ```
 PM> Install-Package PrettyDump.LINQPad.Newtonsoft.Json
